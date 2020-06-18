@@ -1,0 +1,13 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../styles/main__styles/main__index.css);
+@import url(../preloader/preloader.css);
+@import url(../styles/about__styles/about__index.css);
+@import url(../styles/analyzer__styles/analyzer__index.css);
+@font-face {font-family: Roboto;
+            src: url(../vendor/Roboto-Regular.ttf)
+           }
+@font-face {
+            font-family: Roboto Slab;
+            src: url(../vendor/Robotoslabregular.woff2)         
+              };

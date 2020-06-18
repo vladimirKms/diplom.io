@@ -1,0 +1,68 @@
+.cover__input {
+    border: 1px solid #D1D2D6;
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+    border-radius: 100px;
+    height:64px;
+   
+}
+.cover__input_text {
+    position: absolute;
+    width: 608px;
+    margin-left: 132px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #B6BCBF;
+    /*color:#000;*/
+    padding-left: 24px;
+
+}
+.cover__input_serch {
+    position: relative;
+    width:168px;
+    margin-left:572px;
+    background: #2F71E5;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    border-radius: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color:#fff;
+}
+.cover__input_serch:hover{
+    background: #347EFF;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    border-radius: 100px;
+    cursor: pointer;
+}
+.cover__next_view {
+    position: relative;
+    width: 288px;
+    border-radius: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+ }
+.cover__next_view:hover{
+    background: #FFFFFF;
+    opacity: 0.9;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+ .input__user-data{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+  
+ }

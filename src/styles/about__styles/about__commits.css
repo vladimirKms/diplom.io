@@ -1,0 +1,300 @@
+.about__commit{
+    position: absolute;
+  
+    width_:1440px;
+    background: #F5F6F7;
+    position: relative;
+   
+}
+.about__commit_header{
+    position: relative;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about__commit_title{
+    display: flex;
+    position: relative;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1A1B22;
+    margin: 72px auto 64px 104px;
+}
+.about__commit_link{
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: right;
+    color: #1A1B22;
+    margin: 85px 130px 73px auto;
+    text-decoration: none;
+    
+}
+.about__commit_path{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-left: 10px;
+}
+.about__commit_slaider{
+position: relative;
+display: flex;
+
+overflow: hidden;
+flex-direction:row;
+/*! justify-content: space-evenly; */
+padding-bottom: 136px;
+
+}
+.about__commit_slaider_mask{
+    width:100%;
+    position: absolute;;
+    background: linear-gradient(to right, rgb(255, 255, 255) 1%, rgba(255, 255, 255, 0.007) 20%, rgba(255, 255, 255, 0.007) 80%,rgb(255, 255, 255) 99%);
+    padding-bottom: 288px;
+    z-index: 4;
+}
+.about__slaider_button_right{
+ position: absolute;
+ right: 24px;
+ top: 126px;
+
+ 
+}
+.about__slaider_button_right:hover{
+   position: absolute;
+   transform: scale(1.2);
+  
+} 
+
+.about__slaider_button_left{
+    position: absolute;
+    left: 24px;
+    top: 126px;
+}
+.about__slaider_button_left:hover{
+    transform: scale(1.2);  
+}
+
+.about__commit_slaider_content{
+    display: flex;
+    margin-left: 32px;
+}
+
+.about__commit_card{
+    position: relative;
+    width: 400px;
+    height: 288px;
+    border-radius: 10px ;
+    background: #fff;
+    margin: 0 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.about__commit_card_data{
+    position: relative;
+    display: flex;
+    width: 192px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #B6BCBF;
+    margin:24px auto auto 24px;
+}
+.about__commit_card_person{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.about__commit_card_person_pict{
+    width:64px;
+    height: 64px;
+    border-radius: 1000px;
+    margin: 16px auto auto 24px;
+    
+}
+.about__commit_card_person_info{
+   position: relative;
+   margin_:20px auto 0 16px;
+   top:20px;
+   left:16px;
+}
+.about__commit_card_person_name{
+    width: 320px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+    margin:0;
+}
+.about__commit_card_person_e-maile{
+    width: 320px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1A1B22;
+    margin-top: 0;
+}
+.about__commit_card_commit{
+   
+    /*! width: 352px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1B22; 
+    margin: 16px 24px auto 24px;
+}
+.about__commit_link_small{
+    display: none;
+}
+.about__commit_indicator{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    padding-bottom: 80px;
+}
+.about__commit_indicator_item{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: #D1D2D6;
+    margin: 0 4px 0 4px;
+ }
+ .about__commit_indicator_item:nth-child(1){
+     display: none;
+ }
+ .about__commit_indicator_item:nth-child(5){
+    display: none;
+}
+
+
+
+.about__commit_indicator_activ{
+    background: #1A1B22;
+}
+
+.about__commit_slaider{
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .about__commit_title{
+        padding-left: 0;
+        font-size: 30px;
+        line-height: 34px;
+        margin: 40px auto 32px 40px;
+    }
+    .about__commit_link{
+        margin: 48px 66px auto auto;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .about__commit_title{
+        width: 336px;
+    }
+    .about__commit_path{
+        position: relative;
+        top: 36px;
+    }
+    .about__commit_card{
+        width: 336px;
+    }
+    .about__commit_card_person_name{
+        font-size: 20px;   
+    }
+    .about__commit_card:nth-child(4){
+        display:none;
+        border: 1px solid red;
+    }
+    .about__commit_card:nth-child(5){
+        display:none;
+        border: 1px solid red;
+    }
+    .about__commit_slaider_mask{
+        display: none;
+    }
+
+
+
+}
+    
+
+
+@media screen and (max-width: 620px) {
+    
+    
+    .about__commit_link{
+        display: none;
+    }
+    .about__commit_path{
+        display: none;
+    }
+    .about__commit_slaider_content{
+        margin-left: 8px;
+    }
+    .about__commit_slaider{
+        padding-bottom: 0;
+    }
+    .about__commit_card{
+        width: 288px;
+    }
+   
+    .about__commit_link_small{
+        display: flex;
+        position: relative;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        color: #1A1B22;
+        width: 258px;
+        height: 56px;
+        border: 1px solid #1A1B22;
+        box-sizing: border-box;
+        border-radius: 80px;
+        text-decoration: none;
+        justify-content: center;
+        margin: 24px auto 32px auto;
+        bottom: 32px;
+     
+    }
+.about__commit_link_small:hover{
+        background: rgb(255, 255, 255);
+    
+}
+    
+    .about__commit_indicator{
+        margin-top: 8px;
+        padding-bottom: 16px;
+    }
+
+    .about__commit_indicator_item:nth-child(1){
+        display: block;
+    }
+    .about__commit_indicator_item:nth-child(5){
+       display: block;
+   }
+   
+
+}

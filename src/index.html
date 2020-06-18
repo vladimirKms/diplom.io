@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NewsAnalyser</title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body class="main">
+  <header class="cover">
+    <nav class="header__nav">
+     <a class="nav__news" href="../src/analyzer/index.html">NewsAnalyzer</a>
+      <div class="nav__aside ">   
+        <a class="nav__aside_main nav__item_select" href="../src/index.html")>Главная</a>
+        <a class="nav__item" href="../src/about_project/index.html">О проекте</a>
+      </div>
+  </nav>
+  <div class="main_title">
+     <h1 class="header__title">Что в мире творится?</h1>
+     <p class="header__subtitle">Введите в поиске любую тему и узнайте, 
+     насколько популярной она была в новостях за прошедшую неделю.</p>
+  </div>
+
+  <form class="main__input__user-data">
+    <input type="text" placeholder="Введите тему новости"class="main__input main__input_text">
+    <button type="submit" class="main__input main__input_serch">Искать</button>
+  </form>
+</header>
+
+  <section class="main__serch_news">
+    <div class="serch__action">
+     <i class="circle-preloader"></i>
+     <p class="serch__action_caption">Идет поиск новостей</p>
+    </div>
+
+    <div class="main__serch_message_nothing">
+      <img class="main__serch_message_nothing_img" src="../src/images/not_faind.svg" alt="иконка ничего не найдено"/>
+      <h4 class="main__serch_message_nothing_title">Ничего не найдено</h4>
+      <p class="main__serch_message_nothing_subtitle">К сожалению по вашему запросу 
+        ничего не найдено.</p>
+    </div>
+
+  </section>
+
+
+    <section class="main__articles">
+      <div class="main__articles_header">
+      <h2 class="main__result_title"> Результаты поиска</h2>
+      <a class="main__result_link" href=%>Посмотреть аналитику<img src="./images/Path 5.png" class="main__result_path" alt="стрелка" /></a>
+      
+      </div>
+    <div class="main__block">
+    <content class="main__content">
+      <article class="main__news_item">
+          <img class="main__news_item_imag" src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="картинка" /> 
+          <p class="main__news_data">2 августа 2019г.</p>
+          <h3 class="main__news_item_title">Национальное достояние-парки</h3>
+          <blockquote class="main__news_item_content">
+           В 2016 году Америка отмечала важный юбилей: 
+          </blockquote>
+          <addres class="main__news_item_addres">ЛЕНТА.РУ</addres>
+      </article>
+      <article class="main__news_item">
+           <img class="main__news_item_imag" src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="картинка" /> 
+           <p class="main__news_data">2 августа 2019г.</p>
+           <h3 class="main__news_item_title">Национальное достояние-парки</h3>
+           <blockquote class="main__news_item_content">
+            В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала 
+            складываться система национальных парков – охраняемых территорий, где и 
+            сегодня каждый может приобщиться к природе. 
+            </blockquote>
+           <addres class="main__news_item_addres">ЛЕНТА.РУ</addres>
+      </article>
+      <article class="main__news_item">
+           <img class="main__news_item_imag" src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="картинка" /> 
+           <p class="main__news_data">2 августа 2019г.</p>
+          <h3 class="main__news_item_title">Национальное достояние-парки</h3>
+          <blockquote class="main__news_item_content">
+           В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала 
+           складываться система национальных парков – охраняемых территорий, где и 
+           сегодня каждый может приобщиться к природе. 
+      </blockquote>
+      <addres class="main__news_item_addres">ЛЕНТА.РУ</addres>
+     </article>
+     <article class="main__news_item">
+      <img class="main__news_item_imag" src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="картинка" /> 
+      <p class="main__news_data">2 августа 2019г.</p>
+      <h3 class="main__news_item_title">Национальное достояние-парки</h3>
+      <blockquote class="main__news_item_content">
+       В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала 
+       складываться система национальных парков – охраняемых территорий, где и 
+       сегодня каждый может приобщиться к природе. 
+      </blockquote>
+      <addres class="main__news_item_addres">ЛЕНТА.РУ</addres>
+     </article>
+     <article class="main__news_item">
+       <img class="main__news_item_imag" src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="картинка" /> 
+       <p class="main__news_data">2 августа 2019г.</p>
+       <h3 class="main__news_item_title">Национальное достояние-парки</h3>
+       <blockquote class="main__news_item_content">
+        В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала 
+        складываться система национальных парков – охраняемых территорий, где и 
+        сегодня каждый может приобщиться к природе. 
+        </blockquote>
+       <addres class="main__news_item_addres">ЛЕНТА.РУ</addres>
+      </article>
+      <article class="main__news_item">
+       <img class="main__news_item_imag" src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="картинка" /> 
+       <p class="main__news_data">2 августа 2019г.</p>
+      <h3 class="main__news_item_title">Национальное достояние-парки</h3>
+      <blockquote class="main__news_item_content">
+       В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала 
+       складываться система национальных парков – охраняемых территорий, где и 
+       сегодня каждый может приобщиться к природе. 
+      </blockquote>
+      <addres class="main__news_item_addres">ЛЕНТА.РУ</addres>
+      </article>
+      </content>  
+         <button type="button" class="main__input main__news_item_button-next">Показать ещё</button>
+    </div>
+</section>
+
+<section class="main__autor">
+  <img class="main__autor_img" src="./images/1569406016_seksualnaja-hju-lori-51.jpg" alt="фото автора проекта" />
+   <aside class="main__autor_content">
+    <h3 class="main__autor_content_title" >Об авторе</h3>
+    <div class="main__autor_article">
+      <p>Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, 
+      чем вы занимаетесь, какими технологиями разработки владеете. </p>
+      <p>Также можно рассказать 
+      о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь 
+      потенциальным заказчикам.</p>
+    </div>
+   </aside>
+  </section>
+   <footer class="main__footer">
+   
+       <div class="main__logo">© 2019  Supersite</div>
+       <nav class="main__nav">
+          <a class="main__nav_item" href="../src/index.html">Главная</a>
+          <a class="main__nav_item" href="../src/about_project/index.html">О проекте</a>
+          <a class="main__nav_item" href="#">Яндекс.Практикум</a>
+        </ul>
+       </nav>
+    
+       <div class="main__footer_link">
+         <a class="main__footer_link-icon" href="#"><img src="./images/git_hub_icon.svg" /></a>
+         <a class="main__footer_link-icon" href="#"><img src="./images/facebook_icon.svg" /></a>
+       </div>
+
+   </footer>
+
+
+
+    
+
+ 
+
+
+  
+ 
+
+
+  <script src=script.js></script>
+ 
+
+</body>
+</html>
