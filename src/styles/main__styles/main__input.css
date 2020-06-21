@@ -1,7 +1,6 @@
 .main__input {
     border: 1px solid #D1D2D6;
     box-sizing: border-box;
-    backdrop-filter: blur(8px);
     border-radius: 100px;
     height:64px;
   
@@ -65,7 +64,6 @@
 }
 
  .main__input__user-data{
-    /*! width:1440px; */ 
     position: relative;
     display: flex;
     justify-content: center;
@@ -75,8 +73,7 @@
     font-size: 16px;
     line-height: 22px;
     color: #000;
-    border_: 1px solid red;
-    /*! padding-bottom: 60px; */
+    border: 0px solid #03030300;
     margin-top:64px;
     padding-bottom: 80px;
   
