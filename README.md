@@ -1,4 +1,4 @@
-﻿# sprint_11_github.io
+﻿#diplom.io
 </h2>ver 0.0.1</h2>
 
 <h3>ИНСТРУКЦИЯ</h3>
