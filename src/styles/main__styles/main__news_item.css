@@ -14,7 +14,7 @@
 .main__news_item_imag{
    border-radius: 20px 20px 0 0;
    position: relative;
-   /*! width: 400px; */
+   width: 400px;
    border: 0px solid red;
    overflow: hidden;
   

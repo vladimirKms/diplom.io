@@ -1,4 +1,4 @@
-export class NewApi {
+export class NewsApi {
     constructor(baseURL) {
       this.baseUrl = baseURL
       /*this.token = token;*/
@@ -11,7 +11,7 @@ getNews() {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        name: source.name,
+       
           })
     })
       .then(res => res.json())

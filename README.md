@@ -4,7 +4,7 @@
 <h3>ИНСТРУКЦИЯ</h3>
 Для проверки работы необходимо перейти по сслылке: 
 
-https://github.com/vladimirKms/diplom.io
+https://github.com/vladimirKms/diplom.io/pull/2
 
 
 

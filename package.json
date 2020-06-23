@@ -1,6 +1,6 @@
 {
-  "name": "practicum",
-  "homepage": "https://vladimirkms.github.io/sprint_11_github.io/",
+  "name": "diplom.io",
+  "homepage": "https://vladimirkms.github.io/diplom.io/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -31,13 +31,14 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
+    "webpack-image-loader": "^0.1.2",
     "webpack-loader": "0.0.1",
     "webpack-md5-hash": "0.0.6"
   },
   "dependencies": {
     "babel": "^6.23.0",
-    "core-js": "^3.4.1",
     "babel-polyfill": "^6.26.0",
+    "core-js": "3.4.1",
     "group-css-media-queries-loader": "^3.0.2"
   },
   "author": "Polezhaev Vladimir",
