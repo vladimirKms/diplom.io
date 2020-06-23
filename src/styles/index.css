@@ -4,10 +4,10 @@
 @import url(../preloader/preloader.css);
 @import url(../styles/about__styles/about__index.css);
 @import url(../styles/analyzer__styles/analyzer__index.css);
-@font-face {font-family: Roboto;
+@font-face {font-family: "Roboto";
             src: url(../vendor/Roboto-Regular.ttf)
            }
 @font-face {
-            font-family: Roboto Slab;
+            font-family: "Roboto Slab";
             src: url(../vendor/Robotoslabregular.woff2)         
               };

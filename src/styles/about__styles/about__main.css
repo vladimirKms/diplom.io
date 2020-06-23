@@ -1,6 +1,6 @@
 .about__main {
     background: #fff;
-    display_: none;
+    /*display: none;*/
     border: 0px green solid;
 }
 .cover__about{
@@ -10,7 +10,7 @@
   
     background: #FFFFFF;
     box-shadow: inset 0px -1px 0px #D1D2D6;
-    border_: 1px solid blueviolet;
+    border: 0px solid blueviolet;
 }
 
 .nav__news_about{
@@ -43,7 +43,7 @@
 
 }
 .about__article_title{
-    font-family: Roboto Slab;
+    font-family: "Roboto Slab";
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -52,7 +52,7 @@
     margin-bottom: 24px;
 }
 .about__article_content{
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -60,17 +60,15 @@
     color: #1A1B22;
 }
 .about__tools{
-
     position: relative;
     background: #F5F6F7;
     display: flex;
     flex-direction: row;
     padding-bottom: 50px;
-    /*! justify-content: space-between; */
+    
 }
 .about__tools_title{
-    /*width: 344px;*/
-    font-family: Roboto Slab;
+    font-family: "Roboto Slab";
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -80,14 +78,9 @@
 }
 .about__tools_kit{
     display: grid;
-    grid-template: repeat(4, 1fr);
+    grid-template-rows: 4, 1fr;
     justify-content: center;
-   
-    position: relative; /*
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
- */
+    position: relative; 
 
 }
 .about__tools_item{
@@ -100,9 +93,8 @@
 }
 .about__tools_item_subtitle{
     position: relative;
-    /*! width:120px; */
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -110,7 +102,7 @@
     text-align: center;
     letter-spacing: 0.2px;
     color: #1A1B22;
-    /*! margin-left: 40px; */
+  
 }
 .about__tools_item_pict{
     position: relative;
@@ -128,7 +120,6 @@
 }
 .about__tools_item-location_js{
     grid-column: 3;
-    /*! margin-right: 40px; */
 }
 .about__tools_item-location_wp{
     grid-column: 4;
@@ -136,7 +127,7 @@
     margin-left: 40px;
 }
 .main__autor_about{
-display_: none;
+/*display: none;*/
 }
 @media screen and (max-width: 1100px) {
     .about__tools {
@@ -166,8 +157,8 @@ display_: none;
     }
     .about__tools_kit{
         display: grid;
-        grid-template: repeat(2, 1fr)/(2, 1fr);
-        /*! justify-content: center; */
+        grid-template-rows: 2, 1fr;
+        grid-template-columns: 2, 1fr;
        }
     .about__tools_item-location_html{
         grid-column: 1;
@@ -179,10 +170,8 @@ display_: none;
      .about__tools_item-location_css{
         grid-column: 2;
         grid-row: 1;
-
         margin-right: 0px;
-        /*! margin-left: 60px; */
-       }
+        }
     .about__tools_item-location_js{
         grid-column: 1;
         grid-row: 2;
