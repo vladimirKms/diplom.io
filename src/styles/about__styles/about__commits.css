@@ -1,7 +1,5 @@
 .about__commit{
     position: absolute;
-  
-    width_:1440px;
     background: #F5F6F7;
     position: relative;
    
@@ -126,7 +124,7 @@ padding-bottom: 136px;
 }
 .about__commit_card_person_info{
    position: relative;
-   margin_:20px auto 0 16px;
+  
    top:20px;
    left:16px;
 }
