@@ -79,6 +79,10 @@
   
  }
  @media screen and (max-width: 980px) {
+    .main__input__user-data{
+        margin-top: 24px;
+        margin-bottom: 48px;
+    }
     .main__input_text{
         width: 448px;   
     }

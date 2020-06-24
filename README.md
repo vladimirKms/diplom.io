@@ -6,5 +6,5 @@
 
 https://github.com/vladimirKms/diplom.io/pull/2
 
-
+Настроена сборка Webpack.
 
