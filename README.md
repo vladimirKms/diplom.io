@@ -4,3 +4,5 @@
 <h3>ИНСТРУКЦИЯ</h3>
 Для проверки работы  необходимо перейти по ссылке:
 https://github.com/vladimirKms/diplom.io/pull/4
+Для открытия проекта перейти по ссылке:
+https://vladimirkms.github.io/diplom.io/dist/index.html
