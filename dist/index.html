@@ -5,42 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>NewsAnalyser</title>
-  <!--link rel="stylesheet" href="./styles/index.css"-->
-  <link rel="stylesheet" href="index.0f82f0f0f4e92b600fbb.css">
+  <link rel="stylesheet" href="index.422539c20ede84713bab.css">
 </head>
 <body class="main">
-     <header class="cover">
-       <img class="cover__imag" src="../src/images/header.png"> 
-       <img class="cover__imag cover__imag_small" src="../src/images/header_small.png"> 
-     <nav class="header__nav">
-     <a class="nav__news" href="index_analyzer.html">NewsAnalyzer</a>
-      <div class="nav__aside ">   
-        <a class="nav__aside_main nav__item_select" href="../dist/index.html">Главная</a>
-        <a class="nav__item" href="index_about.html">О проекте</a>
-      </div>
-  </nav>
-  <div class="main_title">
-     <h1 class="header__title">Что в мире творится?</h1>
-     <p class="header__subtitle">Введите в поиске любую тему и узнайте, 
-     насколько популярной она была в новостях за прошедшую неделю.</p>
-  </div>
+       <header class="header__cover">
+          <img class="header__cover_imag" src="../src/images/header.png"> 
+          <img class="header__cover_imag cover_imag_small" src="../src/images/header_small.png"> 
+            <nav class="header__nav">
+              <a class="header__nav_news" href="index_analyzer.html">NewsAnalyzer</a>
+             <div class="header__nav_aside">   
+               <a class="nav_aside_item nav_aside_item_main nav_aside_item_select" href="../dist/index.html">Главная</a>
+               <a class="nav_aside_item" href="index_about.html">О проекте</a>
+             </div>
+            </nav>
+         <div class="header__top">
+            <h1 class="header__top header__top_title">Что в мире творится?</h1>
+            <p class="header__top header__top_subtitle">Введите в поиске любую тему и узнайте, 
+            насколько популярной она была в новостях за прошедшую неделю.</p>
+         </div>
 
-  <form class="main__input__user-data">
-    <input type="text" placeholder="Введите тему новости" class="main__input main__input_text">
-    <button type="button" class="main__input main__input_serch">Искать</button>
-  </form>
-</header>
+         <form class="header__input_user-data">
+           <input type="text" placeholder="Введите тему новости" class="header__input_main header__input_main_text">
+           <button type="button" class="header__input_main header__input_main_serch">Искать</button>
+           </form>
+       </header>
 
-  <section class="main__serch_news">
-    <div class="serch__action">
-     <i class="circle-preloader"></i>
-     <p class="serch__action_caption">Идет поиск новостей</p>
+  <section class="popup__serch_news">
+    <div class="popup__serch_action">
+     <i class="popup__circle-preloader"></i>
+     <p class="popup__serch_action_caption">Идет поиск новостей</p>
     </div>
 
-    <div class="main__serch_message_nothing">
-      <img class="main__serch_message_nothing_img" src="" alt="иконка ничего не найдено"/>
-      <h4 class="main__serch_message_nothing_title">Ничего не найдено</h4>
-      <p class="main__serch_message_nothing_subtitle">К сожалению по вашему запросу 
+    <div class="popup__message_nothing">
+      <img class="popup__message_nothing_img" src="../src/images/not_faind.svg" alt="иконка ничего не найдено"/>
+      <h4 class="popup__message_nothing_title">Ничего не найдено</h4>
+      <p class="popup__message_nothing_subtitle">К сожалению по вашему запросу 
         ничего не найдено.</p>
     </div>
 
@@ -121,7 +120,7 @@
       </article>
       </div>  
          <button type="button" class="main__input main__news_item_button-next">Показать ещё</button>
-    </div>
+     </div>
 </section>
 
 <div class="main__autor">
@@ -139,11 +138,11 @@
   </div>
    <footer class="main__footer">
    
-       <div class="main__logo">© 2019  Supersite</div>
-       <nav class="main__nav">
-          <a class="main__nav_item" href="../src/index.html">Главная</a>
-          <a class="main__nav_item" href="../src/about_project/index.html">О проекте</a>
-          <a class="main__nav_item" href="#">Яндекс.Практикум</a>
+       <div class="main__footer_logo">© 2019  Supersite</div>
+       <nav class="main__footer_nav">
+          <a class="main__footer_nav_item" href="../src/index.html">Главная</a>
+          <a class="main__footer_nav_item" href="../src/about_project/index.html">О проекте</a>
+          <a class="main__footer_nav_item" href="#">Яндекс.Практикум</a>
        </nav>
 
        <div class="main__footer_link">
